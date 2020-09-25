@@ -74,7 +74,8 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.5) rotate(10deg);
+  
 }
 .tag {
   background-color: #efefef;
@@ -274,14 +275,12 @@ textarea {
 .flex {
 display: flex;
 flex-direction: column;
-align-content: center;
 padding: 80px 20px 20px 20px;
 border: 1px solid black;
 height: 1000px;
 background-color:  #fff;
 border-radius: 6px;
 border: none;
-
 
 }
 
@@ -296,6 +295,7 @@ border: none;
 
 .h-img:hover {
  transform: rotate(20deg);
+
 }
 
 .flex >h1 {
@@ -307,5 +307,10 @@ border: none;
 
 .flex >p {
   color:#ff9904;
-}
+  padding: 10px;
+  text-align: left;
+  height: 100px;
+  width:800px;
+  margin-left: 15%;
 
+}
